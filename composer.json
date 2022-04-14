@@ -1,12 +1,21 @@
 {
-    "repositories": {
-    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/UB-Mannheim/ubma_digitalcollections.git"
+        }
+    ],
     "name": "typo3/cms-base-distribution",
     "description": "TYPO3 CMS Base Distribution",
     "license": "GPL-2.0-or-later",
     "config": {
         "platform": {
             "php": "7.3"
+        },
+        "allow-plugins": {
+            "typo3/cms-composer-installers": true,
+            "typo3/class-alias-loader": true,
+            "helhum/typo3-console-plugin": true
         }
     },
     "require": {
@@ -32,7 +41,7 @@
         "typo3/cms-viewpage": "^9.5",
         "typo3/cms-lowlevel": "^9.5",
         "sgalinski/lfeditor": "^6.0",
-        "slub/slub-digitalcollections": "dev-master",
+        "ub-mannheim/ubma-digitalcollections": "dev-master"
         "kitodo/presentation": "dev-master",
         "solarium/solarium": "^4.2"
     },
