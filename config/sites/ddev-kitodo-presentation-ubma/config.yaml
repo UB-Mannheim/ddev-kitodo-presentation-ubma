@@ -1,4 +1,4 @@
-base: 'https://ddev-kitodo-presentation.ddev.site/'
+base: 'https://ddev-kitodo-presentation-ubma.ddev.site/'
 baseVariants: {  }
 errorHandling: {  }
 languages:
