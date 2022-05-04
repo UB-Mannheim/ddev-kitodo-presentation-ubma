@@ -42,6 +42,7 @@
         "typo3/cms-lowlevel": "^9.5",
         "sgalinski/lfeditor": "^6.0",
         "ub-mannheim/ubma-digitalcollections": "dev-master",
+        "slub/slub-digitalcollections": "dev-master",
         "kitodo/presentation": "dev-master",
         "solarium/solarium": "^4.2"
     },
