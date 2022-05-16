@@ -8,5 +8,5 @@ EXEC="ddev typo3"
 
 for LOC in $LOCATIONS; do
 	echo $LOC
-	$EXEC kitodo:index -p $KITODO_PID -s $KITODO_SOLR -d "$LOC"
+	$EXEC kitodo:index -p $KITODO_PID -s $KITODO_SOLR -d "$LOC" --owner 4
 done
