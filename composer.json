@@ -3,7 +3,10 @@
         {
             "type": "git",
             "url": "https://github.com/UB-Mannheim/ubma_digitalcollections.git"
-        }
+        },
+	{   "type": "git",
+	    "url": "https://github.com/UB-Mannheim/kitodo-presentation.git"
+	}
     ],
     "name": "typo3/cms-base-distribution",
     "description": "TYPO3 CMS Base Distribution",
@@ -42,8 +45,7 @@
         "typo3/cms-lowlevel": "^9.5",
         "sgalinski/lfeditor": "^6.0",
         "ub-mannheim/ubma-digitalcollections": "dev-master",
-        "slub/slub-digitalcollections": "dev-master",
-        "kitodo/presentation": "dev-master",
+        "ub-mannheim/presentation": "dev-master",
         "solarium/solarium": "^4.2"
     },
     "scripts": {
